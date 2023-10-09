@@ -1,0 +1,15 @@
+body{
+    width: 1440px;
+    height: 900px;
+    background: #FFF;
+    overflow: hidden;
+}
+.left{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 720px;
+    height: 902px;
+    flex-shrink: 0;
+    background: #d8d9daad;
+}
