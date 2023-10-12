@@ -88,14 +88,14 @@ body{
 }
 .rigth h2{
     position: absolute;
-    top: 120px;
+    top: 90px;
     left: 900px;
     font-family: 'Merriweather', sans-serif;
     font-weight: 400;
 }
 .rigth h1{
     position: absolute;
-    top: 155px;
+    top: 125px;
     left: 900px;
     font-family: 'Merriweather', sans-serif;
     font-weight: 700;
@@ -105,7 +105,7 @@ body{
 
 label[for="email"] {
     position: absolute;
-    top: 250px;
+    top: 210px;
     left: 900px;
     font-size: 16px; 
     color: #333; 
@@ -116,7 +116,7 @@ label[for="email"] {
 
 input[type="email"] {
     position: absolute;
-    top: 290px;
+    top: 250px;
     left: 890px;
     border: none; /* Remove a borda */
     padding: 10px;
@@ -128,7 +128,7 @@ input[type="email"] {
 }
 label[for="senha"] {
     position: absolute;
-    top: 380px;
+    top: 340px;
     left: 900px;
     font-size: 16px; 
     color: #333; 
@@ -138,7 +138,7 @@ label[for="senha"] {
 }
 input[type="password"] {
     position: absolute;
-    top: 420px;
+    top: 380px;
     left: 890px;
     border: none; /* Remove a borda */
     padding: 10px;
@@ -148,7 +148,7 @@ input[type="password"] {
     border-radius: 5px;
     border: 1px solid #E8E8E8;
 }
-label[for="lembrarSenha"] {
+/*label[for="lembrarSenha"] {
     position: absolute;
     top: 515px;
     left: 930px;
@@ -157,8 +157,8 @@ label[for="lembrarSenha"] {
     font-weight: bold; 
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-}
-.rounded-checkbox {
+}*/
+/*.rounded-checkbox {
     position: absolute;
     top: 511px;
     left: 890px;
@@ -176,7 +176,31 @@ label[for="lembrarSenha"] {
     appearance: auto;
     clip-path: circle(50% at 50% 50%);
     background-color: blue;
-  }
+  }*/
+
+  label[for="Csenha"] {
+    position: absolute;
+    top: 470px;
+    left: 900px;
+    font-size: 16px; 
+    color: #333; 
+    font-weight: bold; 
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+    .rigth .cpassword {
+    position: absolute;
+    top: 515px;
+    left: 890px;
+    border: none; /* Remove a borda */
+    padding: 10px;
+    width: 350px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+}
+
   .rigth p{
     position: absolute;
     top: 502px;
@@ -191,7 +215,7 @@ label[for="lembrarSenha"] {
 
   input[type="submit"] {
     position: absolute;
-    top: 580px;
+    top: 620px;
     left: 67%;
     border: none; /* Remove a borda */
     width: 347px;
@@ -215,5 +239,5 @@ label[for="lembrarSenha"] {
 }
 
 
-/*Registro page
+
 
